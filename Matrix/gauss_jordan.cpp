@@ -21,7 +21,7 @@ vec gauss_jordan(const mat &A, const vec &b) {
         swap(B[i], B[pivot]);
 
         //解がないか一意でない
-        if (abs(B[i][j]) < EPS) return vec();
+        if (abs(B[i][i]) < EPS) return vec();
 
         //注目している変数の係数を1にする
         for (int j = i + 1; j <= n; j++) B[i][j] /= B[i][i];
