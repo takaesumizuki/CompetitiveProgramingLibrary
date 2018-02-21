@@ -1,12 +1,3 @@
-//
-// Created by たかえすみずき on 2017/10/09.
-//
-
-#ifndef CLION_PROCON_UNIONFIND_H
-#define CLION_PROCON_UNIONFIND_H
-
-#endif //CLION_PROCON_UNIONFIND_H
-
 vector<int> p;//p[i]はiの属する組織
 
 void printState() {

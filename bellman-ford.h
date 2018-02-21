@@ -1,11 +1,3 @@
-//
-// Created by たかえすみずき on 2017/10/10.
-//
-
-#ifndef CLION_PROCON_BELLMAN_FORD_H
-#define CLION_PROCON_BELLMAN_FORD_H
-
-#endif //CLION_PROCON_BELLMAN_FORD_H
 
 /*
  * ベルマンフォード方法による最短路問題

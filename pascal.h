@@ -1,11 +1,3 @@
-//
-// Created by たかえすみずき on 2017/09/28.
-//
-
-#ifndef CLION_PROCON_PASCAL_H
-#define CLION_PROCON_PASCAL_H
-
-#endif //CLION_PROCON_PASCAL_H
 #define REP(i, m, n) for(int i=int(m);i<int(n);i++)
 #define MAX_PAS 50 //最大の第一引数
 ll pascal[MAX_PAS + 1][MAX_PAS + 1];

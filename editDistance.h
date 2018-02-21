@@ -1,13 +1,3 @@
-//
-// Created by たかえすみずき on 2017/10/26.
-//
-
-#ifndef CLION_PROCON_EDITDISTANCE_H
-#define CLION_PROCON_EDITDISTANCE_H
-
-#endif //CLION_PROCON_EDITDISTANCE_H
-
-
 /**
  *
  * @param str1

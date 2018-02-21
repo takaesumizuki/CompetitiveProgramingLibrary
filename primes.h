@@ -1,13 +1,3 @@
-//
-// Created by たかえすみずき on 2017/09/12.
-//
-
-#ifndef CLION_PROCON_PRIMES_H
-#define CLION_PROCON_PRIMES_H
-
-#endif //CLION_PROCON_PRIMES_H
-
-
 #define REP(i, m, n) for(int i=int(m);i<int(n);i++)
 
 

@@ -1,12 +1,3 @@
-//
-// Created by たかえすみずき on 2017/11/05.
-//
-
-#ifndef CLION_PROCON_KDTREE_H
-#define CLION_PROCON_KDTREE_H
-
-#endif //CLION_PROCON_KDTREE_H
-
 class Node{
 public:
     int location;
