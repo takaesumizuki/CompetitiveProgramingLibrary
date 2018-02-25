@@ -10,7 +10,7 @@ struct BFS01 {
 
     BFS01(int N) {
         V = N;
-        G = vector<vector<edge> >(N);
+        G.resize(N);
         d = vector<ll>(N);
     };
 
