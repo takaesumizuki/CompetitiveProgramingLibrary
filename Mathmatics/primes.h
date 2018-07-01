@@ -30,3 +30,27 @@ bool isPrime(int num){
     }
     return true;
 }
+
+auto getPrimes(int lim) {
+    vector<bool> flags(lim + 1, true);
+    flags[0] = flags[1] = false;
+
+    for (int i = 2; i <= lim; i++) {
+        if (flags[i]) {
+            for (int j = 2 * i; j <= lim; j += i) {
+                flags[j] = false;
+            }
+        }
+    }
+
+    vector<int> primes;
+
+    for (int i = 0; i <= lim; i++) {
+        if (flags[i]) {
+            primes.push_back(i);
+        }
+    }
+
+    return primes;
+
+}
